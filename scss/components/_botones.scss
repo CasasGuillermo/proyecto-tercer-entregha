@@ -9,6 +9,12 @@
         width: 85px;
         border-radius: 15px;
         font-size: 0.7rem;
-        background-color: aqua;
+        transition: all 300ms;
+
+        &:hover {
+        background-color: bisque;
+        color: black;
+        transform: scale(1.2);
+        }
     }
 }
