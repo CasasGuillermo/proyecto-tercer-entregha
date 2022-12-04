@@ -2,3 +2,10 @@
     width: 180px;
     justify-content: center;
 }
+
+
+@media (min-width: 720px) {
+    .footer__audio {
+        width: 250px;
+    }
+}

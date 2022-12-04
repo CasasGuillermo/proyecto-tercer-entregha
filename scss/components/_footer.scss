@@ -1,9 +1,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 10px;
+    height: 10vh;
 }
 
 .footer__iconos {

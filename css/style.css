@@ -46,9 +46,10 @@ hr {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 10px;
+  height: 10vh;
 }
 
 .footer__iconos {
@@ -71,6 +72,11 @@ hr {
   justify-content: center;
 }
 
+@media (min-width: 720px) {
+  .footer__audio {
+    width: 250px;
+  }
+}
 .fondo__index {
   background-image: url(/img/fondo-principal.jfif);
   background-position: center;
@@ -114,7 +120,7 @@ hr {
 
 .mainparteuno {
   width: 100%;
-  height: 75%;
+  height: 75vh;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
@@ -128,17 +134,75 @@ hr {
   max-width: 800px;
   align-self: center;
 }
-.sectionuno__video {
-  width: 100%;
-  height: 100%;
-}
-.sectionuno__titulo {
+
+.historia__titulo {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.sectionuno__texto {
+.historia__texto {
   text-align: center;
+}
+
+.premios__titulo {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.premios__texto {
+  text-align: center;
+}
+
+.video__iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+@media (min-width: 720px) {
+  .mainparteuno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "logo premios" "historia trailer";
+  }
+}
+@media (min-width: 720px) {
+  .sectionuno {
+    grid-area: logo;
+    justify-self: center;
+    max-width: 700px;
+  }
+}
+@media (min-width: 720px) {
+  .video {
+    grid-area: trailer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 720px) {
+  .video__iframe {
+    max-width: 680px;
+    max-height: 400px;
+  }
+}
+@media (min-width: 720px) {
+  .historia {
+    grid-area: historia;
+    align-self: center;
+    justify-self: center;
+  }
+}
+@media (min-width: 720px) {
+  .premios {
+    grid-area: premios;
+    align-self: center;
+    justify-self: center;
+    max-width: 550px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
