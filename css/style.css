@@ -78,7 +78,7 @@ hr {
   }
 }
 .fondo__index {
-  background-image: url(/img/fondo-principal.jfif);
+  background-image: url(../img/fondo-principal.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
