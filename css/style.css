@@ -320,4 +320,31 @@ hr {
   margin-right: 10px;
 }
 
+@media (min-width: 1200px) {
+  .tarjeta {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+header h1 {
+  margin-left: 30px;
+}
+header nav {
+  margin-right: 30px;
+}
+
+@media (min-width: 1200px) {
+  .historiahbo {
+    margin: 50px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

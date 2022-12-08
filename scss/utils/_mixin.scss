@@ -4,6 +4,12 @@
     }
 }
 
+@mixin deskop-xl {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
 .mainhbo {
     @include tablet-md(){
         height: 75vh;
@@ -54,3 +60,33 @@ hr {
         margin-right: 10px;
     }
 }
+
+.tarjeta {
+    @include deskop-xl() {
+        justify-content: space-evenly;
+    }
+}
+
+header {
+    @include deskop-xl() {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    h1 {
+        margin-left: 30px;
+    }
+
+    nav {
+        margin-right: 30px;
+    }
+}
+
+.historiahbo {
+    @include deskop-xl() {
+        margin: 50px;
+    }
+}
+
