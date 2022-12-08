@@ -215,21 +215,27 @@ hr {
   color: antiquewhite;
 }
 
-.sectionuno {
-  display: grid;
-}
-.sectionuno__logo-dos {
-  width: 100%;
-  max-width: 800px;
-  align-self: center;
+.fondohbo {
+  background-image: url(/img/serie-hbo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@media (min-width: 720px) {
-  .sectionuno {
-    grid-area: logo;
-    justify-self: center;
-    max-width: 700px;
-  }
+.mainhbo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.video__iframehbo {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.video__titulo {
+  margin-top: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

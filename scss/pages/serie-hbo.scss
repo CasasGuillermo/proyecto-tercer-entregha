@@ -1,0 +1,25 @@
+.fondohbo {
+    background-image: url(/img/serie-hbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainhbo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.video {
+    &__iframehbo {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    &__titulo {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
