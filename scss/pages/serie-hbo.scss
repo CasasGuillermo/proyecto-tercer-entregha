@@ -3,13 +3,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: rgb(66, 66, 66);
+    font-family: 'Rubik', sans-serif;
 }
 
-.mainhbo {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-}
 
 .video {
     &__iframehbo {
@@ -21,5 +18,39 @@
     &__titulo {
         margin-top: 10px;
         text-align: center;
+    }
+}
+
+.historiahbo {
+    color: antiquewhite;
+    &__titulo {text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    &__texto {
+        text-align: center;
+    }
+}
+
+hr {
+    color: rgb(221, 236, 6);
+    border: 3px solid;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+    &__titulo {
+        color: antiquewhite;
+    }
+
+    .card {
+        margin-bottom: 10px;
     }
 }
