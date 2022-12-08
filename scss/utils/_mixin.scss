@@ -1,0 +1,56 @@
+@mixin tablet-md {
+    @media (min-width: 720px) {
+        @content;
+    }
+}
+
+.mainhbo {
+    @include tablet-md(){
+        height: 75vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "historia trailer"
+        "tarjeta-uno tarjeta-dos";
+    }
+
+}
+
+hr {
+    @include tablet-md(){
+        display: none;
+    }
+}
+
+.historiahbo {
+    @include tablet-md(){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.video {
+    @include tablet-md(){
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__iframehbo {
+        max-width: 650px;
+        border: 3px solid rgb(80, 79, 79);
+    }
+}
+
+.tarjeta {
+    @include tablet-md(){
+        grid-column: 1 / span 3;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        margin-right: 10px;
+    }
+}

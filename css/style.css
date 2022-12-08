@@ -216,7 +216,7 @@ hr {
 }
 
 .fondohbo {
-  background-image: url(/img/serie-hbo.jpg);
+  background-image: url(/img/fondo_hbo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -224,8 +224,13 @@ hr {
   font-family: "Rubik", sans-serif;
 }
 
+.video {
+  display: flex;
+  flex-direction: column;
+}
 .video__iframehbo {
   width: 100%;
+  height: 100%;
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -248,7 +253,7 @@ hr {
 
 hr {
   color: rgb(221, 236, 6);
-  border: 3px solid;
+  border: 2px solid;
 }
 
 .tarjeta {
@@ -263,6 +268,56 @@ hr {
 }
 .tarjeta .card {
   margin-bottom: 10px;
+  transition: all 300ms;
+}
+.tarjeta .card:hover {
+  transform: translateY(-20px);
+}
+
+@media (min-width: 720px) {
+  .mainhbo {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "historia trailer" "tarjeta-uno tarjeta-dos";
+  }
+}
+
+@media (min-width: 720px) {
+  hr {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .historiahbo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 720px) {
+  .video {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.video__iframehbo {
+  max-width: 650px;
+  border: 3px solid rgb(80, 79, 79);
+}
+
+@media (min-width: 720px) {
+  .tarjeta {
+    grid-column: 1/span 3;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.tarjeta .card {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

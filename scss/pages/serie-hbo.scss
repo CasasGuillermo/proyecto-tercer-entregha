@@ -1,5 +1,5 @@
 .fondohbo {
-    background-image: url(/img/serie-hbo.jpg);
+    background-image: url(/img/fondo_hbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,11 +8,17 @@
 }
 
 
+
 .video {
+    display: flex;
+    flex-direction: column;
+
     &__iframehbo {
         width: 100%;
+        height: 100%;
         margin-top: 20px;
         border-radius: 10px;
+        
     }
 
     &__titulo {
@@ -35,7 +41,7 @@
 
 hr {
     color: rgb(221, 236, 6);
-    border: 3px solid;
+    border: 2px solid;
 }
 
 
@@ -52,5 +58,10 @@ hr {
 
     .card {
         margin-bottom: 10px;
+        transition: all 300ms;
+    }
+
+    .card:hover {
+        transform: translateY(-20px);
     }
 }
