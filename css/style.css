@@ -241,6 +241,8 @@ hr {
 
 .historiahbo {
   color: antiquewhite;
+  background-color: rgba(95, 158, 160, 0.705);
+  border-radius: 10px;
 }
 .historiahbo__titulo {
   text-align: center;

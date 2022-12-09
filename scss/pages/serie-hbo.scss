@@ -29,9 +29,12 @@
 
 .historiahbo {
     color: antiquewhite;
+    background-color: rgba(95, 158, 160, 0.705);
+    border-radius: 10px;
     &__titulo {text-align: center;
         margin-top: 15px;
         margin-bottom: 10px;
+        
     }
 
     &__texto {
