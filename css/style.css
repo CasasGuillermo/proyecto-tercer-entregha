@@ -25,6 +25,7 @@ hr {
 }
 
 .header__botones {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -274,6 +275,45 @@ hr {
 }
 .tarjeta .card:hover {
   transform: translateY(-20px);
+}
+
+.fondo-contacto {
+  background-image: url(/img/fondo-contacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: antiquewhite;
+  font-family: "Rubik", sans-serif;
+}
+
+.contacto {
+  margin-top: 15px;
+  background-color: rgba(117, 117, 117, 0.336);
+  border-radius: 10px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contacto__titulo {
+  text-align: center;
+}
+.contacto__texto {
+  text-align: center;
+}
+
+hr {
+  color: rgb(255, 0, 0);
+  margin-bottom: 10px;
+}
+
+.formulario {
+  background-color: rgba(117, 117, 117, 0.829);
+  border-radius: 10px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (min-width: 720px) {

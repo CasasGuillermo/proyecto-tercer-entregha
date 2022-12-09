@@ -2,4 +2,39 @@
     background-image: url(/img/fondo-contacto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    color: antiquewhite;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contacto {
+    margin-top: 15px;
+    background-color: rgba(117, 117, 117, 0.336);
+    border-radius: 10px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__titulo {
+        text-align: center;
+    }
+
+    &__texto {
+        text-align: center;
+    }
+}
+
+hr {
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+
+.formulario {
+    background-color: rgba(117, 117, 117, 0.829);
+    border-radius: 10px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
