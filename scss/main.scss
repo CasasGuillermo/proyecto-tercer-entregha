@@ -3,6 +3,7 @@
 
 @import "./base/base";
 
+
 @import "./components/recuadro";
 @import "./components/header";
 @import "./components/botones";
@@ -10,11 +11,14 @@
 @import "./components/audio";
 
 
+@import "./pages/index.scss";
 @import "./pages/parte-uno.scss";
 @import "./pages/parte-dos.scss";
 @import "./pages/serie-hbo.scss";
 @import "./pages/contacto.scss";
-@import "./pages/index.scss";
+
 
 @import "./utils/mixin";
+
+
 
