@@ -3,6 +3,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: antiquewhite;
+    color: $color-principal;
+    font-family: $fuente-principal;
 }
 
+.video {
+    
+    &__iframe {
+        border: 3px solid rgb(80, 79, 79);
+        border-radius: 10px;
+    }
+}

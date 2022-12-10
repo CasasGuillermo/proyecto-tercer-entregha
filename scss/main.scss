@@ -1,3 +1,6 @@
+@import "./utils/variables";
+
+
 @import "./base/base";
 
 @import "./components/recuadro";
@@ -6,7 +9,6 @@
 @import "./components/footer";
 @import "./components/audio";
 
-
 @import "./pages/index.scss";
 @import "./pages/parte-uno.scss";
 @import "./pages/parte-dos.scss";
@@ -14,3 +16,4 @@
 @import "./pages/contacto.scss";
 
 @import "./utils/mixin";
+

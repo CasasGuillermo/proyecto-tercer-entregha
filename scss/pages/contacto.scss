@@ -3,9 +3,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: antiquewhite;
-    font-family: 'Rubik', sans-serif;
+    color: $color-principal;
+    font-family: $fuente-principal;
 }
+
 
 .contacto {
     margin-top: 15px;
@@ -26,11 +27,12 @@
 }
 
 hr {
-    color: rgb(255, 0, 0);
+    color:bisque;
     margin-bottom: 10px;
 }
 
 .formulario {
+    width: 100%;
     background-color: rgba(117, 117, 117, 0.829);
     border-radius: 10px;
     height: 45%;

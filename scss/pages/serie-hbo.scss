@@ -4,7 +4,8 @@
     background-repeat: no-repeat;
     background-position: center;
     color: rgb(66, 66, 66);
-    font-family: 'Rubik', sans-serif;
+    color: $color-principal;
+    font-family: $fuente-principal;
 }
 
 
@@ -29,7 +30,7 @@
 
 .historiahbo {
     color: antiquewhite;
-    background-color: rgba(95, 158, 160, 0.705);
+    background-color: rgba(138, 164, 165, 0.644);
     border-radius: 10px;
     &__titulo {text-align: center;
         margin-top: 15px;
@@ -60,6 +61,7 @@ hr {
     }
 
     .card {
+        color: black;
         margin-bottom: 10px;
         transition: all 300ms;
     }
