@@ -80,7 +80,7 @@ hr {
   }
 }
 .fondo__index {
-  background-image: url(/img/fondo-principal.jfif);
+  background-image: url(https://i.ibb.co/Sv9jFq3/fondo-principal.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,7 +113,7 @@ hr {
 }
 
 .fondoparteuno {
-  background-image: url(/img/fondo-parte-uno.jfif);
+  background-image: url(../img/fondo-parte-uno.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,7 +210,7 @@ hr {
   }
 }
 .fondopartedos {
-  background-image: url(/img/fondo-parte-dos.jfif);
+  background-image: url(../img/fondo-parte-dos.jfif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +224,7 @@ hr {
 }
 
 .fondohbo {
-  background-image: url(/img/fondo_hbo.png);
+  background-image: url(../img/fondo_hbo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -287,7 +287,7 @@ hr {
 }
 
 .fondo-contacto {
-  background-image: url(/img/fondo-contacto.jpg);
+  background-image: url(../img/fondo-contacto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
