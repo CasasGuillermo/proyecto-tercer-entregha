@@ -33,7 +33,7 @@ hr {
 .header__botones input {
   border: 2px solid;
   height: 25px;
-  width: 85px;
+  width: 4.8rem;
   border-radius: 15px;
   font-size: 0.7rem;
   transition: all 300ms;
@@ -417,8 +417,11 @@ hr {
 .header h1 {
   margin-left: 30px;
 }
-.header nav {
-  margin-right: 30px;
+
+@media (min-width: 1200px) {
+  .header__botones {
+    margin-right: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

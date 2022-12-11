@@ -106,12 +106,16 @@ hr {
 
     }
 
-
     h1 {
         margin-left: 30px;
     }  
 
-    nav {
+}
+
+.header__botones {
+    @include deskop-xl() {
         margin-right: 30px;
     }
+    
 }
+
