@@ -1,7 +1,12 @@
+header {
+    width: 100%;
+}
+
 .header__botones {
     display: flex;
     justify-content: center;
     gap: 10px;
+    
 
     input {
         border: 2px solid;

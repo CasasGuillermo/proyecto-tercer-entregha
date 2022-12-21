@@ -25,6 +25,10 @@ hr {
   width: 80%;
 }
 
+header {
+  width: 100%;
+}
+
 .header__botones {
   display: flex;
   justify-content: center;
